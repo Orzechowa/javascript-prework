@@ -25,5 +25,11 @@ let playerMove = 'nieznany ruch';
 if(playerInput == '1'){
   playerMove = 'kamień';
 }
+if(playerInput == '2'){
+  playerMove = 'papier';
+}
+if(playerInput == '3'){
+  playerMove = 'nożyce'
+}
 
 printMessage('Twój ruch to: ' + playerMove);

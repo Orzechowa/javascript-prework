@@ -1,2 +1,18 @@
+body {
+  text-align: center;
+  align-items: center;
+  color: darkblue;
+  font-size: 20px;
+  padding: 20px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+button {
+  font-size: 20px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLGVBQWU7RUFDZixhQUFhO0FDQ2pCOztBRENBO0VBQ0ksZUFBZTtFQUNmLFlBQVk7RUFDWixxQkFBcUI7QUNFekI7O0FEQUE7RUFDSSxvQkFBb0I7QUNHeEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

@@ -4,15 +4,40 @@ body {
   color: darkblue;
   font-size: 20px;
   padding: 20px;
+  background-image: url(https://images.pexels.com/photos/591652/play-fun-blocks-block-591652.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  padding: 25px 0;
 }
 
 button {
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
   display: inline-block;
+  font-family: "Playfair Display", serif;
+  border-radius: 20px;
+  border-color: black;
+  background-color: none;
+  font-style: italic;
+  color: darkblue;
 }
 
-.container {
-  padding-bottom: 20px;
+.choice {
+  padding: 25px 0;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLGVBQWU7RUFDZixhQUFhO0FDQ2pCOztBRENBO0VBQ0ksZUFBZTtFQUNmLFlBQVk7RUFDWixxQkFBcUI7QUNFekI7O0FEQUE7RUFDSSxvQkFBb0I7QUNHeEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLGVBQWU7RUFDZixhQUFhO0VBQ2Isc0lBQXNJO0VBQ3RJLGFBQWE7RUFDYixrQ0FBa0M7RUFDbEMsc0JBQXNCO0VBQ3RCLDRCQUE0QjtBQ0ZoQzs7QURJQTtFQUNJLHNDQWhCa0M7QUNldEM7O0FER0E7RUFDSSxzQ0FsQmlDO0FDa0JyQzs7QURFQTtFQUNJLGVBQWU7QUNDbkI7O0FEQ0E7RUFDSSxlQUFlO0VBQ2YsYUFBYTtFQUNiLHFCQUFxQjtFQUNyQixzQ0EzQmlDO0VBNEJqQyxtQkFBbUI7RUFDbkIsbUJBQWtCO0VBQ2xCLHNCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsZUFBZTtBQ0VuQjs7QURBQTtFQUNJLGVBQWU7RUFDZixzQ0FwQ2lDO0VBcUNqQyxrQkFBa0I7QUNHdEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

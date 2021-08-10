@@ -1,15 +1,40 @@
+$font-title: 'Dancing Script', cursive;
+$font-text: 'Playfair Display', serif;
+
 body {
     text-align: center;
     align-items: center;
     color: darkblue;
     font-size: 20px;
     padding: 20px;
+    background-image: url(https://images.pexels.com/photos/591652/play-fun-blocks-block-591652.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+h1, h2{
+    font-family: $font-title
+}
+h3{
+    font-family: $font-text;
+}
+header {
+    padding: 25px 0;
 }
 button{
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
+    font-family: $font-text;
+    border-radius: 20px;
+    border-color:black;
+    background-color:none;
+    font-style: italic;
+    color: darkblue;
 }
-.container {
-    padding-bottom: 20px;
+.choice {
+    padding: 25px 0;
+    font-family: $font-text;
+    font-style: italic;
 }

@@ -1,5 +1,6 @@
-let playerScore = 0;
-let computerScore = 0;
+
+let playerScore = 0,
+    computerScore = 0;
 
 function playGame(playerInput){
   
@@ -17,14 +18,14 @@ function playGame(playerInput){
     (argComputerMove == 'papier' && argPlayerMove == 'nożyce')) {
      printMessage('Wygrywasz');
      playerScore++;
-     printMessage(playerScore + ':' + computerScore);
+     printMessage('Twoje punkty ' + playerScore + ':' + computerScore + ' Punkty komputera');
   }
   else if(argComputerMove == argPlayerMove) {
      printMessage('Remis!');
   } else {
     printMessage('Przegrywasz!');
     computerScore++;
-    printMessage(playerScore + ':' + computerScore);
+    printMessage('Twoje punkty ' + playerScore + ':' + computerScore + ' Punkty komputera');
   }
 
   }
@@ -35,13 +36,13 @@ function playGame(playerInput){
 clearMessages();
 
 // wylosuj wybór gracza i skonwertuj go do zapisu tekstowego (1 --> papier)
-  let randomNumber = Math.floor(Math.random() * 3 + 1);
-  let computerMove = getMoveName(randomNumber);
+  const randomNumber = Math.floor(Math.random() * 3 + 1);
+  const computerMove = getMoveName(randomNumber);
   printMessage('Mój ruch to: ' + computerMove);
 
 // ustal wybó gracza (1 --> papier)
 
-  let playerMove = getMoveName(playerInput);
+  const playerMove = getMoveName(playerInput);
   printMessage('Twój ruch to: ' + playerMove);
 
 
